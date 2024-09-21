@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: "firaSans";
+  src: url(font/FiraSans-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body
+{
+  background: url(images/landingBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "firaSans";
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.mainContainer
+{
+  padding: 20px 100px;
+}
+#logoContainer
+{
+  display: flex;
+  align-items: center;
+}
+header
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logoImg
+{
+  width: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header ul
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+  background: rgba(163, 161, 161, 0.705);
+  padding: 14px 50px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+header ul a
+{
+  color: white;
+  text-decoration: none;
+  font-family: "firaSans";
+}
+#loginBtnContainer
+{
+  display: flex;
+  gap: 20px;
+}
+#loginBtnContainer button,
+#landingSignupBtn button
+{
+  padding: 12px 25px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#loginBtn
+{
+  background: rgba(0, 0, 0, 0.534);
+}
+.signupBtn
+{
+  background: blue;
+}
+main
+{
+  margin-top: 15%;
+  inline-size: 400px;
+}
+main h1
+{
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#landingSignupBtn
+{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#landingSignupBtn button
+{
+  border-radius: 20px;
+}
+.doctorIcon
+{
+  width: 200px;
 }

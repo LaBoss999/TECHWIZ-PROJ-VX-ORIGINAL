@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Ashley Cole",
+        "Role": "Surgeon",
+        "Date" : "20th May, 2024",
+        "Time" : "11:00am"
+    },
+    {
+        "Name": "Brandon Johnson",
+        "Role": "Dentist",
+        "Date" : "20th May, 2024",
+        "Time" : "1:00pm"
+    },
+    {
+        "Name": "Faith Kareem",
+        "Role": "Gyneacologist",
+        "Date" : "20th May, 2024",
+        "Time" : "3:00pm"
+    }
+]
